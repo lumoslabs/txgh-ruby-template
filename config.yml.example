@@ -4,17 +4,17 @@ github:
       api_username:
       api_token:
       push_source_to:
-      branch:
+      branch: all
       tag:
       webhook_secret:
-      diff_point:
+      diff_point: heads/master
 transifex:
   projects:
     project-slug:
-      tx_config:
+      tx_config: git://.tx/config
       api_username:
       api_password:
       push_translations_to:
       protected_branches:
       webhook_secret:
-      auto_delete_resources:
+      auto_delete_resources: 'true'
