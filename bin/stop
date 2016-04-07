@@ -1,0 +1,12 @@
+#! /bin/bash
+
+pidfile=./txgh.pid
+
+if [ ! -f $pidfile ]; then
+  echo "Server is not running"
+  exit 0
+fi
+
+cid=$(cat $pidfile)
+
+kill $cid

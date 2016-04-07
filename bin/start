@@ -1,0 +1,6 @@
+#! /bin/bash
+
+export TXGH_CONFIG="file://config.yml"
+
+pidfile=./txgh.pid
+bundle exec rackup -D -P $pidfile

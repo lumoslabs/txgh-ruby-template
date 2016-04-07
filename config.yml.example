@@ -1,0 +1,20 @@
+github:
+  repos:
+    organization/repo:
+      api_username:
+      api_token:
+      push_source_to:
+      branch:
+      tag:
+      webhook_secret:
+      diff_point:
+transifex:
+  projects:
+    project-slug:
+      tx_config:
+      api_username:
+      api_password:
+      push_translations_to:
+      protected_branches:
+      webhook_secret:
+      auto_delete_resources:
