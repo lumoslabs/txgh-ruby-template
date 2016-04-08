@@ -1,4 +1,0 @@
-#! /bin/bash
-
-export TXGH_CONFIG="file://config.yml"
-bundle exec rackup
