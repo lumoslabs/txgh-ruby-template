@@ -1,0 +1,13 @@
+{
+  "name": "txgh",
+  "description": "",
+  "website": "https://github.com/lumoslabs/txgh",
+  "repository": "https://github.com/lumoslabs/txgh",
+  "logo": "https://raw.githubusercontent.com/lumoslabs/txgh/master/logo.png",
+  "env": {
+    "TXGH_CONFIG": {
+      "description": "Your Txgh configuration in YAML format.",
+      "required": true
+    }
+  }
+}
