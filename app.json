@@ -6,7 +6,7 @@
   "logo": "https://raw.githubusercontent.com/lumoslabs/txgh/master/logo.png",
   "env": {
     "TXGH_CONFIG": {
-      "description": "Your Txgh configuration in YAML format.",
+      "description": "Your Txgh configuration in YAML format. Prefix with raw://",
       "required": true
     }
   }
