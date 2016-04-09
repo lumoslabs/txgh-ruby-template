@@ -1,9 +1,7 @@
-Txgh Ruby Template
+Txgh Ruby Template  &nbsp; [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 ====
 
 The Txgh Ruby template is a quick way to get up-and-running with [Txgh](https://github.com/lumoslabs/txgh). It includes a number of handy rake tasks and a configuration wizard.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 What is Txgh?
 ---
