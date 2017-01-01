@@ -1,13 +1,16 @@
 {
   "name": "txgh",
-  "description": "",
+  "description": "A simple integration between Transifex and Github",
   "website": "https://github.com/lumoslabs/txgh",
   "repository": "https://github.com/lumoslabs/txgh",
   "logo": "https://raw.githubusercontent.com/lumoslabs/txgh/master/logo.png",
   "env": {
     "TXGH_CONFIG": {
-      "description": "Your Txgh configuration in YAML format. Prefix with raw://",
+      "description": "Your Txgh configuration in YAML format. Prefix with raw:// (See config.yml.heroku.example)",
       "required": true
     }
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake start"
   }
 }
